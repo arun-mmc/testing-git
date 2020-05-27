@@ -54,3 +54,36 @@ body {
 .aliginCenter {
     margin: auto 10%;
 }
+
+
+/********animation********/
+
+.tuna {
+    animation: walk-cycle 1s steps(12) infinite;
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/tuna_sprite.png) 0 0 no-repeat; */
+    background: url(./sonic-mania-sonic-sprite-sheet.png) 0 0 no-repeat;
+    /* height: 200px;
+    width: 400px;
+    margin: 100px auto 0; */
+    height: 100px;
+    background-clip: padding-box;
+    width: 139px;
+    margin: 33px auto 0;
+}
+
+@keyframes walk-cycle {
+    0% {
+        background-position: 0 20;
+    }
+    100% {
+        /* background-position: 0 -2391px; */
+        background-position: -100 20;
+    }
+}
+
+html {
+    text-align: center;
+}
+
+
+/***************/
